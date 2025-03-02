@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mpU23KQeOXU=",
+  "dgSpecHash": "Oip08tLPSzk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hasor\\Desktop\\angular-.net-course\\backend\\api\\API.csproj",
+  "projectFilePath": "C:\\Users\\hasor\\Desktop\\angular-.net-course\\backend\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hasor\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\hasor\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
