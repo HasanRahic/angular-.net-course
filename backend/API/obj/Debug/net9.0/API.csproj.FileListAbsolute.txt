@@ -141,3 +141,11 @@ C:\Users\hasor\Desktop\angular-.net-course\backend\api\obj\Debug\net9.0\refint\A
 C:\Users\hasor\Desktop\angular-.net-course\backend\api\obj\Debug\net9.0\API.pdb
 C:\Users\hasor\Desktop\angular-.net-course\backend\api\obj\Debug\net9.0\API.genruntimeconfig.cache
 C:\Users\hasor\Desktop\angular-.net-course\backend\api\obj\Debug\net9.0\ref\API.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\api\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\api\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\api\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\api\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\api\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\api\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\api\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\api\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
