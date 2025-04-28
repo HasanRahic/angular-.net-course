@@ -151,3 +151,14 @@ C:\Users\hasor\Desktop\angular-.net-course\backend\api\bin\Debug\net9.0\Microsof
 C:\Users\hasor\Desktop\angular-.net-course\backend\api\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\hasor\Desktop\angular-.net-course\backend\api\bin\Debug\net9.0\Data\UserSeedData.json
 C:\Users\hasor\Desktop\angular-.net-course\backend\api\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\API\bin\Debug\net9.0\CloudinaryDotNet.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\API\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\API\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\API\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\API\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\hasor\Desktop\angular-.net-course\backend\API\bin\Debug\net9.0\Newtonsoft.Json.dll
