@@ -1,6 +1,7 @@
 using API.Data;
 using API.Extensions;
 using API.Middleware;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,31 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddApplicationServices(builder.Configuration);
 builder.Services.AddIdentityServices(builder.Configuration);
+
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.InvalidModelStateResponseFactory = context =>
+    {
+        var problemDetails = new ValidationProblemDetails(context.ModelState)
+        {
+            Status = StatusCodes.Status400BadRequest
+        };
+
+        foreach (var key in context.ModelState.Keys)
+        {
+            var errors = context.ModelState[key]?.Errors;
+            if (errors != null)
+            {
+                foreach (var error in errors)
+                {
+                    Console.WriteLine($"❌ Model validation error on '{key}': {error.ErrorMessage}");
+                }
+            }
+        }
+
+        return new BadRequestObjectResult(problemDetails);
+    };
+});
 
 
 var app = builder.Build();
