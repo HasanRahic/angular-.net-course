@@ -1,4 +1,3 @@
-import { NgFor } from '@angular/common';
 import { Component, inject, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavComponent } from "./nav/nav.component";
@@ -27,6 +26,5 @@ export class AppComponent implements OnInit{
     const user = JSON.parse(userString);
     this.accountService.setCurrentUser(user);
   }
-
-  
+   
 }
