@@ -58,6 +58,7 @@ dotnet run
 cd client
 npm install
 ng serve
+```
 
 ## 📚 What I Learned
 
