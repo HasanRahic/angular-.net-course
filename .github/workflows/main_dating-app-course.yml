@@ -17,6 +17,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          path: source
 
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
@@ -24,12 +26,12 @@ jobs:
           dotnet-version: '9.x'
 
       - name: Build with dotnet
-        run: dotnet build ./backend/API/API.csproj --configuration Release
+        run: dotnet build ./source/backend/API/API.csproj --configuration Release
         working-directory: ${{ github.workspace }}
 
       - name: dotnet publish
         run: dotnet publish -c Release -o "${{env.DOTNET_ROOT}}/myapp"
-        working-directory: ${{ github.workspace }}/backend/API
+        working-directory: ${{ github.workspace }}/source/backend/API
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
