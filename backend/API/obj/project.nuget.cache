@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+J5aG1UOEpY=",
+  "dgSpecHash": "WKF1F7cnyJk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hasor\\Desktop\\angular-.net-course\\backend\\api\\API.csproj",
+  "projectFilePath": "C:\\Users\\hasor\\Desktop\\angular-.net-course\\backend\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hasor\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\hasor\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
